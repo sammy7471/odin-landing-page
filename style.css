@@ -35,6 +35,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin: 30px;
 }
 
 .first {
@@ -74,6 +75,29 @@ button {
     margin: 40px;
     gap: 20px;
     text-align: center;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 550px;
+}
+
+.quote .under {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 

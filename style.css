@@ -5,15 +5,14 @@ body {
     flex-direction: column;
 }
 
-.first-section {
-    display: flex;
-    flex-direction: column;
-    background-color: #1f2937;
-}
-
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 500px;
+}
+
+.first-section {
+    background-color: #1f2937;
 }
 
 ul,
@@ -34,11 +33,8 @@ a {
 
 .wrapper {
     display: flex;
-    gap: 70px;
     justify-content: center;
-    margin: 20px;
-    min-width: 100%;
-    max-width: 100%;
+    gap: 20px;
 }
 
 .first {
@@ -63,10 +59,12 @@ button {
     margin-top: 7px;
 }
 
-h4 {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
+.title {
     display: flex;
     justify-content: center;
+}
+
+.all {
+    background-color: red;
+    display: flex;
 }

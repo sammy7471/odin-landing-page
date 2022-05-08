@@ -58,6 +58,10 @@ a {
 button {
     background-color: #3882F6;
     margin-top: 7px;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: none;
 }
 
 .title {
@@ -100,4 +104,33 @@ button {
     font-weight: bold;
 }
 
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
 
+.action {
+    background-color: #3882F6;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.sign {
+    display: inline-block;
+    color: #e5e7eb;
+}
+
+.call {
+    margin: 0;
+    color: white;
+}
+
+.button {
+    margin-left: 70px;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: white;
+}

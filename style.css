@@ -11,7 +11,7 @@ body {
 .header {
     display: flex;
     justify-content: center;
-    gap: 500px;
+    gap: 510px;
 }
 
 .first-section {
